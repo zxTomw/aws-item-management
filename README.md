@@ -21,3 +21,9 @@ Attached the ID to the end of the provided API endpoint. Will respond the item w
 
 ### POST
 In the request body, include the non-empty ID, name and description of the item you want to add. Adds a new item to the database, or if an item with the same ID exists, replaces this item with new name and description. 
+
+## Testing
+APIs deployed for this project can easily be tested by running the given testScript. Run the script directly to test my deployment.
+```shell
+python3 testScript.py
+```
